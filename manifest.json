@@ -1,0 +1,30 @@
+{
+    "name": "dari",
+    "version": "3.0.1",
+    "description": "Analisador de token de Ethereum",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "declarativeContent"
+    ],
+    "content_scripts": [
+        {
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "content.css"
+            ],
+            "matches": [
+                "https://etherscan.io/address/*",
+                "https://dexscreener.com/ethereum/*",
+                "https://www.dextools.io/app/en/ether/pair-explorer/*"
+            ]
+        }
+    ],
+    "manifest_version": 3
+}
