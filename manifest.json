@@ -1,6 +1,6 @@
 {
     "name": "Dari Coin",
-    "version": "3.0.2",
+    "version": "3.0.3",
     "description": "Ethereum Token Analyzer",
     "browser_action": {
         "default_popup": "popup.html",
