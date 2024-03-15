@@ -9,7 +9,7 @@ var sellTax;
 var buyTax;
 var isLoading = true;
 var isFirstLoad = true;
-var mainDiv = document.createElement("divDaril");
+var mainDiv = document.createElement("div");
 mainDiv.setAttribute("id", "divDaril");
 checkTokenAsync();
 
@@ -87,7 +87,7 @@ function getDivBase() {
     if (isDextools) {
         return document.getElementsByClassName("social ng-tns-c328536588-2")[0];
     } else if (isUrlDexscreener) {
-        return document.getElementsByClassName("chakra-heading custom-to0qxc")[0];
+        return document.getElementsByClassName("custom-6su6fj")[0];
     } else {
         return document.getElementById("ContentPlaceHolder1_copyButtonPanel");
     }
